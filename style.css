@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+body {
+	font-family: 'Roboto';
+}
+
+#poster {
+	overflow: hidden;
+
+	height: calc(100vh - 20px);
+	width: calc(100vw - 20px);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+	background-color: blue;
+	border: 10px solid yellow;
+	color: yellow;
+
+	position: relative;
+}
+
+.fullScreenSection {
+	background-color: rgb(14, 14, 19);
+	color: yellow;
+
+	min-height: 100vh;
+	width: 100vw;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullScreenSection .container {
+	display: block;
+
+	max-width: 700px;
+}
+
+.fullScreenSection p {
+	color: white;
+}
+
+h1, h2, h3 {
+	font-family: 'Homemade Apple';
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 7vw;
+}
+
+h2 {
+	font-size: 5vw;
+}
+
+h2 {
+	font-size: 4vw;
+}
+
+#logo h1 {
+	font-size: 14vw;
+	font-size-adjust: 100%;
+}
+
+#logo span {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#sceneWrapper {
+	border: 10px solid yellow;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
